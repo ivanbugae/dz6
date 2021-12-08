@@ -1,0 +1,22 @@
+{
+    "name": "alex/project",
+    "type": "libraly",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "framework\\": "framework",
+            "public\\": "public",
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Navrotskiy Alexandr",
+            "email": "Navrotskiy.alex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-http": "*"
+    }
+}
